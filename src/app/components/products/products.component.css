@@ -1,0 +1,136 @@
+.header_bottom{
+    height: 49px;
+    background-image: none;
+    background-color: #232f3e;
+    padding-left: 8px;
+    font-size: 12px;
+    
+    
+}
+.header_bottom{
+    display: flex;
+    align-items: center;
+
+}
+.header_bottom_elements{
+    color: white;
+    display: flex;
+    width: 100%;
+    
+}
+
+
+.header_bottom_elements > span {
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 1px 6px 0;
+    padding: 8px 9px;
+}
+
+/* card design */
+.card-top {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: .25rem;
+}
+
+
+.container{
+    /* position: absolute;
+    top: 11%;
+    left: 20%; */
+    position: relative;
+    top: auto;
+    left: auto;
+}
+.card {
+    padding: 20px;
+    margin: 50px;
+
+
+}
+.card-top{
+    background-color: aqua;
+}
+.container_caro{
+    color: blue;
+    margin-top: 20%;
+}
+.card img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.card img:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.card-top {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: .25rem;
+}
+
+.item img {
+    width: 64px;
+}
+
+.item {
+    margin: 0px 15px;
+    text-align: center;
+}
+
+.item a:hover {
+    color: blue;
+}
+
+.card {
+    padding: 20px;
+    margin: 50px;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.card img:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.footer {
+    margin-top: auto;
+    left: 0;
+    bottom: 0;
+    
+    width: 100%;
+    background-color: #131A22;
+    color: white;
+    text-align: center;
+  }
+
+  footer{
+    width: 100%;
+  }

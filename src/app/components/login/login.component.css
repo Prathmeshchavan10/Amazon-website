@@ -1,0 +1,24 @@
+.container{
+    position: absolute;
+    width: 63vw;
+    top: 20%;
+    left: 20%;
+    border-color: black;
+}
+#new_user{
+    margin-left: 20px;
+    
+}
+
+.card-title{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+}
+.signin img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
