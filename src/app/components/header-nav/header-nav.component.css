@@ -1,13 +1,14 @@
 
 
 .header_top{
-    height: 60px;
+    height: 65px;
     background-color: black;
     font-size: 14px;
     display: flex;
     color: white;
     padding-right: 8px;
     padding-bottom: 8px;
+
 }
 .header_menu{
     display: flex;
@@ -71,10 +72,12 @@
     width: 100px;
     margin: 12px 20px 0px 2px;
 }
+
 .header_menu_signin{
     display: flex;
     flex-direction: column;
 }
+
 .header_menu_top_item{
     font-size: 11px;
     color: rgb(241, 245, 241);
@@ -91,49 +94,12 @@
     justify-content: space-around;
 }
 
+
 .header_cart_number{
     color: #febd69;
     font-size: 20px;
     font-weight: 800;
 }
-
-
-
-
-
-
-/* .header_bottom{
-    height: 49px;
-    background-image: none;
-    background-color: #232f3e;
-    padding-left: 8px;
-    font-size: 12px;
-    
-    
-}
-.header_bottom{
-    display: flex;
-    align-items: center;
-
-}
-.header_bottom_elements{
-    color: white;
-    display: flex;
-    width: 100%;
-    
-}
-
-
-.header_bottom_elements > span {
-    width:100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 5px 1px 6px 0;
-    padding: 8px 9px;
-} */
 
 
 /* side bar */

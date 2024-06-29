@@ -1,9 +1,12 @@
 .container{
     position: absolute;
-    width: 63vw;
+    width: 40vw;
     top: 20%;
-    left: 20%;
-    border-color: black;
+    left: 30%;
+    height: 50%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(209, 200, 189);
 }
 #new_user{
     margin-left: 20px;
