@@ -134,3 +134,28 @@
     margin: 5px 1px 6px 0;
     padding: 8px 9px;
 } */
+
+
+/* side bar */
+.menu_title{
+    padding-right: 20px;
+    padding-left: 36px;
+    padding-top: 13px;
+    padding-bottom: 5px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #111;
+    display: inline-block;
+}
+li{
+    list-style: none;
+}
+.menu_item{
+    padding-right: 20px;
+    padding-left: 36px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    align-items: center;
+    -webkit-tap-highlight-color: transparent;
+}

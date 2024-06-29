@@ -24,7 +24,7 @@ export class CartService {
     // console.log("cart_items",this.cartItemList);
     this.productList.next(this.cartItemList);
     this.getTotalPrice();
-    console.log(this.cartItemList)
+    // console.log(this.cartItemList)
   }
   getTotalPrice() : number{
     let grandTotal = 0;
