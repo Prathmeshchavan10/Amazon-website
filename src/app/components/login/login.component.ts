@@ -22,15 +22,15 @@ export class LoginComponent  {
 
   submitForm() {
     
-    const isFormValid=this.myForm.valid;
+    // const isFormValid=this.myForm.valid;
     // debugger;
     if(this.myForm.valid){
       alert('Logged Successfully');
       this.router.navigate(['/products']);
     }
-    this.isFormSub=true;
-    alert('Yehh !! You Logged In Successfully');
-    this.router.navigate(['/products']);
+    // this.isFormSub=true;
+    // alert('Yehh !! You Logged In Successfully');
+    // this.router.navigate(['/products']);
     
   }
 

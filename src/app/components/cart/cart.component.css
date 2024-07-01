@@ -37,7 +37,7 @@ h6 {
     justify-content: center;
     font-size: 28px;
 }
-.card-table {
+.cart-table {
     position: relative;
     display: flex;
     flex-direction: column;
