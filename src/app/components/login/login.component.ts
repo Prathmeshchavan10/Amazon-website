@@ -9,11 +9,11 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent  {
   myForm: FormGroup;
-  isFormSub:boolean=false;
+
   
   constructor( public router:Router) { 
     this.myForm=new FormGroup({
-      // email: ['', [Validators.required, Validators.pattern(/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/)]],
+      
       email: new FormControl("",[Validators.required, Validators.pattern('^[a-zA-Z0-9_.±]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$')])
     })
   }
@@ -21,17 +21,14 @@ export class LoginComponent  {
  
 
   submitForm() {
-    
-    // const isFormValid=this.myForm.valid;
-    // debugger;
     if(this.myForm.valid){
-      alert('Logged Successfully');
+      alert('Logged In Successfully');
       this.router.navigate(['/products']);
     }
-    // this.isFormSub=true;
-    // alert('Yehh !! You Logged In Successfully');
-    // this.router.navigate(['/products']);
-    
+    else{
+      alert('Enter Valid Email and Password...')
+    }
+
   }
 
 }

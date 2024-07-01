@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
 })
 export class RegisterComponent {
   userForm: FormGroup;
-  isFormSubmitted: boolean = false;
+  
 
   constructor( private router: Router) {
     this.userForm =  new FormGroup({
@@ -18,23 +18,19 @@ export class RegisterComponent {
       lastName: new FormControl('',[Validators.required,Validators.minLength(4)]),
       userName:  new FormControl('',[Validators.required,Validators.email]),
       password: new FormControl(''),
-      
-      zipcode: new FormControl(''),
-      isAgree: new FormControl(false)
+
     })
   }
-  firstName:any;
-onchange(event:any){
-  console.log("firstName",event);
-  this.firstName=event.value
-  
-}
+
   onSubmit() {
-    alert("Success registerd ! Now Enjoy your Shopping");
-    const isFormValid = this.userForm.valid;
-    debugger;
-    this.isFormSubmitted =  true;
-    this.router.navigate(['/products']);
+   
+    if(this.userForm.valid){
+      alert('Successfully registerd ! Enjoy your shopping');
+      this.router.navigate(['/login']);
+    }
+    else{
+      alert('Please enter valid details')
+    }
   }
 
 }

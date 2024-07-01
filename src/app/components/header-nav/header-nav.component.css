@@ -18,6 +18,10 @@
     width: 100%;
     
 }
+.header_menu_logo:hover{
+
+    cursor: pointer;
+}
 .header_menu > div{
     margin: 8px;
 }
