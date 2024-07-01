@@ -18,9 +18,9 @@ export class HeaderNavComponent implements OnInit {
       this.totalItem = res.length;
     })
   }
-  search(event:any){
-    this.searchTerm = (event.target as HTMLInputElement).value;
-    console.log(this.searchTerm);
+  search(e:any){
+    this.searchTerm = (e.target as HTMLInputElement).value;
+
     this.cartService.search.next(this.searchTerm);
   }
 
