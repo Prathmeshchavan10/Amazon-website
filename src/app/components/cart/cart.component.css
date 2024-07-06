@@ -2,12 +2,17 @@
     height: 60vh;
     margin: 25px;
     padding: 25px;
-    background-color:#97e2f5;
+    background-color:hwb(192 59% 4%);
     
     border-radius: 50%;
    
 }
-
+.heading{
+    color: red;
+}
+.cart-table{
+    background-color:aqua
+}
 .center img {
     text-decoration: none;
     color: inherit;

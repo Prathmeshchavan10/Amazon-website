@@ -17,8 +17,8 @@ export class RegisterComponent {
       firstName: new FormControl('',[Validators.required]),
       lastName: new FormControl('',[Validators.required,Validators.minLength(4)]),
       userName:  new FormControl('',[Validators.required,Validators.email]),
-      password: new FormControl('', [Validators.required,Validators.pattern('[a-zA-Z]10')]),
-      address: new FormControl('',[Validators.required, Validators.minLength(6) ])
+      password: new FormControl('', [Validators.required]),
+      address: new FormControl('',[Validators.required, Validators.minLength(4) ])
 
     })
   }
